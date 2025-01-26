@@ -1,0 +1,23 @@
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  gap: 12px; /* Gap between paragraph and button */
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 12px; /* Gap between paragraph and button */
+  height: 100vh; /* Make the container take the full height of the viewport */
+}
+
+.agent-paragraph {
+  width: 374px;
+  height: 48px;
+}

@@ -1,0 +1,33 @@
+.billing-main {
+    display: flex;
+    padding: 41px 115px 259px 46px;
+    align-items: flex-start;
+    gap: 99px;
+    align-self: stretch;
+}
+
+.billing-card {
+    display: flex;
+    width: 840px;
+    padding: var(--spacing-8, 32px) var(--spacing-10, 40px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-9, 36px);
+
+    border-radius: var(--border-radius-xl, 12px);
+    border: 1px solid var(--tailwind-colors-neutral-300, #D4D4D4);
+    background: #FFF;
+
+}
+
+.billing-title {
+    align-self: stretch;
+    color: #000;
+
+    /* text 2x large/leading-normal/semibold */
+    /* font-family: var(--typography-font-family-font-sans, Inter); */
+    font-size: var(--typography-base-sizes-2x-large-font-size, 24px);
+    font-style: normal;
+    font-weight: var(--font-weight-semibold, 600);
+    line-height: var(--typography-base-sizes-2x-large-line-height, 32px); /* 133.333% */
+}

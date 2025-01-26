@@ -1,0 +1,66 @@
+.notification-main {
+    display: flex;
+    padding: 41px 115px 259px 46px;
+    align-items: flex-start;
+    gap: 99px;
+    align-self: stretch;
+}
+
+.notification-card {
+    display: flex;
+    width: 840px;
+    padding: var(--spacing-8, 32px) var(--spacing-10, 40px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-9, 36px);
+
+    border-radius: var(--border-radius-xl, 12px);
+    border: 1px solid var(--tailwind-colors-neutral-300, #D4D4D4);
+    background: #FFF;
+}
+
+.notification-title h2 {
+    align-self: stretch;
+    color: #000;
+
+    /* text 2x large/leading-normal/semibold */
+    font-family: var(--typography-font-family-font-sans, Inter);
+    font-size: var(--typography-base-sizes-2x-large-font-size, 24px);
+    font-style: normal;
+    font-weight: var(--font-weight-semibold, 600);
+    line-height: var(--typography-base-sizes-2x-large-line-height, 32px); /* 133.333% */
+}
+
+.notification-email-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-6, 24px);
+    align-self: stretch;
+}
+
+.notification-part {
+    align-self: stretch;
+
+    color: var(--tailwind-colors-neutral-500, #737373);
+
+    /* text base/leading-normal/regular */
+    font-family: var(--typography-font-family-font-sans, Inter);
+    font-size: var(--typography-base-sizes-base-font-size, 16px);
+    font-style: normal;
+    font-weight: var(--font-weight-normal, 400);
+    line-height: var(--typography-base-sizes-base-line-height, 24px); /* 150% */
+}
+
+.notification-item-frame {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.notification-dividor {
+    width: 760px;
+    height: 1px;
+    background: var(--base-border, #E4E4E7);
+}

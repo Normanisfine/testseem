@@ -1,0 +1,93 @@
+.create-agent-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 644px;
+  height: 730px;
+  position: relative; /* Changed to relative to work with margin-top */
+  margin: 40px auto 0;
+}
+
+.create-agent-title {
+  text-align: left;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 26px;
+}
+
+.agent-form {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  width: 100%;
+  flex: 1; /* Ensure the form takes the full height */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  text-align: left;
+}
+
+.agent-type-cards {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.agent-type-card {
+  cursor: pointer;
+  flex: 1;
+  border-radius: 8px;
+  padding: 10px;
+  transition: border-color 0.3s;
+  width: calc(
+    33.333% - 10px
+  ); /* Adjust width to 1/3 of the container minus the gap */
+  text-align: left; /* Ensure text is left-aligned */
+}
+
+.agent-type-card .card-header,
+.agent-type-card .card-description {
+  text-align: left; /* Ensure text is left-aligned */
+  padding: 10px; /* Ensure padding is consistent */
+}
+
+.agent-type-card.selected {
+  border-color: black;
+}
+
+.instructions-group {
+  flex: 1; /* Make the instructions group fill the available space */
+  display: flex;
+  flex-direction: column;
+}
+
+.instructions-input {
+  flex: 1; /* Make the instructions input fill the rest of the container's height */
+}
+
+.form-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-buttons button {
+  width: 100%;
+  flex: 1;
+}
+
+.file-upload-label {
+  margin-top: 12px;
+}
+
+.agent-type-card .p-6 {
+  padding: 0.5rem;
+}

@@ -1,0 +1,93 @@
+.usage-main {
+    display: flex;
+    padding: 41px 115px 259px 46px;
+    align-items: flex-start;
+    gap: 99px;
+    align-self: stretch;
+}
+
+.usage-card {
+    display: flex;
+    width: 840px;
+    padding: var(--spacing-8, 32px) var(--spacing-10, 40px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-9, 36px);
+    border-radius: var(--border-radius-xl, 12px);
+    border: 1px solid var(--tailwind-colors-neutral-300, #D4D4D4);
+    background: #FFF;
+}
+
+.usage-title h2 {
+    align-self: stretch;
+    color: #000;
+
+    /* text 2x large/leading-normal/semibold */
+    font-family: var(--typography-font-family-font-sans, Inter);
+    font-size: var(--typography-base-sizes-2x-large-font-size, 24px);
+    font-style: normal;
+    font-weight: var(--font-weight-semibold, 600);
+    line-height: var(--typography-base-sizes-2x-large-line-height, 32px); /* 133.333% */
+}
+
+.usage-plan {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-5, 20px);
+    align-self: stretch;
+}
+
+.usage-plan-button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+    }
+
+.usage-plan-button button {
+    display: flex;
+    height: var(--height-h-9, 36px);
+    padding: var(--spacing-2, 8px) var(--spacing-4, 16px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-2, 8px);
+    color: white;
+
+    border-radius: var(--border-radius-md, 6px);
+    background: var(--base-primary, #18181B);
+
+    /* shadow/base */
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+.usage-dividor {
+    width: 760px;
+    height: 1px;
+    background: var(--base-border, #E4E4E7);
+
+}
+
+.usage-quota-frame {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.usage-quota-card {
+    display: flex;
+    width: 369px;
+    padding: var(--spacing-6, 24px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-6, 24px);
+}
+
+.usage-progress-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-3, 12px);
+    align-self: stretch;
+}

@@ -1,0 +1,30 @@
+.profileMenu-menu {
+    display: flex;
+    width: 256px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-2-5, 10px);
+}
+
+.profileMenu-menuItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 256px;
+    height: 40px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.profileMenu-menuItem:hover {
+    background-color: #88888851; /* Slightly darker grey on hover */
+    border-radius: 0.5rem; /* Add rounded corners on hover */
+  }
+
+
+.profileMenu-menuItem.active {
+    background-color: #88888851; /* Slightly darker grey on hover */
+    border-radius: 0.5rem;
+}

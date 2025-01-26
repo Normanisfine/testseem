@@ -1,0 +1,111 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  align-self: stretch;
+  height: 4rem; /* Increase height of the header */
+
+  border-bottom: 1px solid var(--base-sidebar-border, #E5E7EB);
+  background: var(--base-sidebar-primary-foreground, #FAFAFA);
+}
+
+.header-container {
+  display: flex;
+  /* max-width: 1280px; */
+  justify-content: flex-end;
+  align-items: center;
+  gap: 131px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left .logo-text {
+  font-size: 2rem; /* Increase font size */
+  font-weight: 700; /* Tailwind's font-bold */
+  color: #000000; /* Tailwind's text-white */
+  cursor: pointer; /* Add pointer cursor to indicate clickable text */
+  margin-right: 1.2rem; /* Add more space between the logo and the button */
+  margin-left: 1.2rem;
+}
+
+.header-left .see-plans-button {
+  padding: 0.5rem 1rem; /* Tailwind's px-4 py-2 */
+  background-color: #4299e1; /* Tailwind's bg-blue-500 */
+  color: #ffffff; /* Tailwind's text-white */
+  border: none;
+  border-radius: 0.25rem; /* Tailwind's rounded */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.header-left .see-plans-button:hover {
+  background-color: #3182ce; /* Tailwind's hover:bg-blue-600 */
+}
+
+.header-center {
+  flex-grow: 1;
+  margin: 0 1rem; /* Tailwind's mx-4 */
+}
+
+.header-center .search-bar {
+  width: 97%; /* Adjust the width to make it narrower */
+  padding: 0.5rem; /* Tailwind's p-2 */
+  border-radius: 0.25rem; /* Tailwind's rounded */
+  background-color: #a9a9a9; /* Tailwind's bg-gray-700 */
+  color: #ffffff; /* Tailwind's text-white */
+  margin-left: 1rem; /* Add left margin to shift it to the right */
+}
+
+.header-center .search-bar::placeholder {
+  color: #000000; /* Tailwind's placeholder-gray-400 */
+}
+
+.header-right {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header-right .icon-button {
+  width: 2.5rem; /* Set width to make it square */
+  height: 2.5rem; /* Set height to make it square */
+  background-color: #4a5568; /* Tailwind's bg-gray-700 */
+  color: #ffffff; /* Tailwind's text-white */
+  border: none;
+  border-radius: 0.25rem; /* Tailwind's rounded */
+  cursor: pointer;
+  margin-right: 2rem; /* Add space between the buttons */
+  transition: background-color 0.3s;
+}
+
+.header-right .icon-button:hover {
+  background-color: #3182ce; /* Tailwind's hover:bg-blue-600 */
+}
+
+.header-right .auth-button {
+  padding: 0.5rem 1rem; /* Tailwind's px-4 py-2 */
+  background-color: #4299e1; /* Tailwind's bg-blue-500 */
+  border-radius: 0.25rem; /* Tailwind's rounded */
+  transition: background-color 0.3s;
+}
+
+.header-right .auth-button:hover {
+  background-color: #3182ce; /* Tailwind's hover:bg-blue-600 */
+}
+.cl-userButtonOuterIdentifier {
+  color: #000000;
+} /* Clerk show name*/
+
+.header-left .divider {
+  height: calc(100% + 2rem); /* Adjust height to go across the padding of the header */
+  width: 1px; /* Set width to make it a line */
+  background-color: #000000; /* Black color */
+  margin-left: 1rem; /* Space between the M and the line */
+  align-self: stretch; /* Ensure the divider stretches to the full height of the header */
+}

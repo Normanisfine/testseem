@@ -1,0 +1,67 @@
+.my-knowledge-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  width: 644px;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.my-knowledge-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.my-knowledge-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.my-knowledge-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.my-knowledge-content {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.my-knowledge-sheet {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px; /* Gap between checkbox and sheet */
+  text-align: left;
+}
+
+.sheet-card {
+  width: 616px;
+  height: 72.7px;
+  display: flex;
+  flex-direction: column; /* Ensure the card header and description are in a column */
+  justify-content: center; /* Center the content vertically */
+  padding: 10px; /* Add padding to the card */
+}
+
+.sheet-card .card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Ensure the header content is left-aligned */
+  padding: 0; /* Remove any default padding */
+  margin-bottom: 4px; /* Add a small margin between the title and description */
+}
+
+.sheet-card .card-title {
+  text-align: left;
+}
+
+.sheet-card .card-description {
+  text-align: left; /* Ensure text is left-aligned */
+  width: 100%; /* Ensure the text takes the full width */
+  padding: 0; /* Remove any default padding */
+}

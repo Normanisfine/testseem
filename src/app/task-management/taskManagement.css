@@ -1,0 +1,105 @@
+.task-management-container {
+  display: flex;
+  padding: 40px 128px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+.task-management-nav {
+  display: flex;
+  justify-content: space-between; /* Space between tabs and actions */
+  align-items: center;
+  gap: 9px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.task-management-tabs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 20px;
+  padding: 4px 12px;
+}
+
+.task-management-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-button {
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-input-container {
+  position: relative;
+  width: 300px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.search-input {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  flex-shrink: 0;
+  padding-left: 30px;
+}
+
+.task-management-table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.task-management-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-management-table th,
+.task-management-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-management-table tr {
+  height: 64px; /* Set the height of each table row */
+}
+
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.progress-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 70%;
+}
+
+.estimated-time {
+  font-size: 12px;
+  color: #71717a;
+}
+
+.preview-button {
+  width: 120px;
+  height: 24px;
+}

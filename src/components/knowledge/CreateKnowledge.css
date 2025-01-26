@@ -1,0 +1,50 @@
+.create-knowledge-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 644px;
+  height: 618.7px;
+  position: relative; /* Changed to relative to work with margin-top */
+  margin: 40px auto 0;
+}
+
+.create-knowledge-title {
+  text-align: left;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 26px;
+}
+
+.knowledge-form {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  text-align: left;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-buttons button {
+  width: 100%;
+  flex: 1;
+}
+
+.file-upload-label {
+  margin-top: 12px;
+}

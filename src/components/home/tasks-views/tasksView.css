@@ -1,0 +1,38 @@
+.task-container {
+    flex: 1;
+    margin: 0 0.5rem; /* Add some space between the cards */
+  }
+
+  .task-card {
+    padding: 1rem;
+    background-color: #f9fafb; /* Light background color */
+    border: 1px solid #e5e7eb; /* Light border color */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 1rem; /* Space between cards */
+  }
+  
+  .task-card .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-card .card-title {
+    font-size: 1.25rem; /* Larger font size */
+    font-weight: 600; /* Semi-bold font weight */
+  }
+  
+  .task-card .card-content {
+    margin-top: 0.5rem;
+  }
+  
+  .task-progress {
+    margin-top: 0.7rem; /* Add margin to improve gap between CardTitle and Progress */
+  }
+  .progress-value {
+    margin-left: 20rem; /* Space between progress bar and value */
+    font-size: 1rem; /* Font size for the progress value */
+    color: #4a5568; /* Tailwind's text-gray-700 */
+  }
+

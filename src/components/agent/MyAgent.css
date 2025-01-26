@@ -1,0 +1,50 @@
+.my-agent-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  width: 644px;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.my-agent-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.my-agent-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.my-agent-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.agent-card {
+  width: 100%;
+  height: 72.7px; /* Set the card's height */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the content vertically */
+  padding: 10px; /* Add padding to the card */
+}
+
+.agent-card .card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Ensure the header content is left-aligned */
+  padding: 0; /* Remove any default padding */
+}
+
+.agent-card .card-title,
+.agent-card .card-description {
+  text-align: left; /* Ensure text is left-aligned */
+  width: 100%; /* Ensure the text takes the full width */
+  padding: 0; /* Remove any default padding */
+}

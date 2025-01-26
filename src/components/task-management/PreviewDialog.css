@@ -1,0 +1,17 @@
+.dialog-content {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 0 0;
+}
+
+.done-button {
+  width: 200px;
+  height: 32px;
+}
